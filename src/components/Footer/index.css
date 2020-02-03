@@ -9,3 +9,9 @@
   text-align: center;
   color: #fd8816;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .footer {
+    padding-top: 30px;
+  }
+}
