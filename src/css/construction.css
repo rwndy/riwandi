@@ -14,6 +14,7 @@
 /* responsive */
 @media (min-width: 320px) and (max-width: 768px) {
   .construction-title__white {
-    font-size: 30px;
+    font-size: 24px;
+    margin-top: 245px;
   }
 }
