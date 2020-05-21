@@ -1,0 +1,19 @@
+.construction-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.construction-title__white {
+  font-size: 12rem;
+  color: #fff;
+  font-weight: 700;
+  margin: 35rem auto 0rem;
+  text-align: center;
+}
+
+/* responsive */
+@media (min-width: 320px) and (max-width: 768px) {
+  .construction-title__white {
+    font-size: 3rem;
+  }
+}
