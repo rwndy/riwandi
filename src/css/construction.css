@@ -4,16 +4,16 @@
 }
 
 .construction-title__white {
-  font-size: 12rem;
+  font-size: 120px;
   color: #fff;
   font-weight: 700;
-  margin: 35rem auto 0rem;
+  margin: 350px auto 0px;
   text-align: center;
 }
 
 /* responsive */
 @media (min-width: 320px) and (max-width: 768px) {
   .construction-title__white {
-    font-size: 3rem;
+    font-size: 30px;
   }
 }
