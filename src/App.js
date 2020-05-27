@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from 'react';
 import Footer from './components/Footer/Footer';
 import ReactGA from 'react-ga';
-import { PageConstruction } from './pages'
+import { PageConstruction, Home } from './pages'
 
 const analytic = () => {
   const trackingID = 'UA-64780720-1';
@@ -21,7 +21,7 @@ const App = ()=> {
   analytic()
   return (
     <Fragment>
-      {hide ? (<PageConstruction />) : <Footer />}
+      {hide ? (<PageConstruction />) : <Home />}
     </Fragment>
   );
 }

@@ -1,3 +1,4 @@
 import PageConstruction from './construction'
+import Home from './home'
 
-export { PageConstruction }
+export { PageConstruction, Home }
