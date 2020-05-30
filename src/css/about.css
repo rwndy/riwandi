@@ -1,0 +1,8 @@
+.about-title__white {
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+}

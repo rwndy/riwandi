@@ -1,3 +1,5 @@
 import Construction from './under-construction'
+import LayoutHome from './home-page'
+import LayoutAbout from './about-page'
 
-export { Construction }
+export { Construction, LayoutHome, LayoutAbout }

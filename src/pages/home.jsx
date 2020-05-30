@@ -1,12 +1,17 @@
-import React, { Fragment } from 'react'
+import React from 'react'
+import { NavigationBar } from '../components/Navbar'
+import { LayoutHome  } from '../layout'
+import '../css/home.css'
 
 const Home = () => {
   return(
-    <Fragment>
-      <main>
-        <h1>Home</h1>
-      </main>
-    </Fragment>
+      <header>
+        <NavigationBar />
+        <LayoutHome>
+          <h1 className="home-title__white">Riwandi</h1>
+          <span><p className="home-sub__white">(Front End Developer and Always Love You)</p></span>
+        </LayoutHome>
+      </header>
   )
 }
 

@@ -7,9 +7,11 @@
 
 body {
   box-sizing: border-box;
-  background-color: #3282b8;
+  background-color: rgb(21, 32, 43);
+  font-family: 'Lato', sans-serif;
+  height: 100%;
 }
 
-/* .main-bg {
-  height: 100vh;
-} */
+.main-home {
+  height: calc(100vh - 55px)
+}
