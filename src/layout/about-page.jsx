@@ -1,8 +1,14 @@
 import React from 'react'
+import { Container, Row } from 'reactstrap'
 
-const LayoutAbout = () => {
+const LayoutAbout = ({children}) => {
   return(
-    <section>
+    <section className="section-about">
+      <Container className="section-w">
+        <Row>
+          {children}
+        </Row>
+      </Container>
 
     </section>
   )

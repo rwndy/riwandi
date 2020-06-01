@@ -6,3 +6,48 @@
   top: 50%; right: 50%;
   transform: translate(50%,-50%);
 }
+
+.about-ava--wrapper {
+  margin-right: 1.875rem;
+}
+
+.about-ava {
+  width: 100%;
+  height: auto;
+}
+
+.about-bio--wrap {
+  text-align: center;
+  position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+}
+
+.about-bio--name {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 3rem;
+  
+}
+
+.about-bio--info {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .about-ava--wrapper {
+    margin-left: 1.875rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+
+  .about-bio--wrap {
+    margin: 0 1.875rem;
+    position: relative;
+    transform: none;
+    top: 0; right: 0;
+  }
+}
