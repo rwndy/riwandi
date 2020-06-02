@@ -11,7 +11,7 @@ const About = () => {
       <LayoutAbout>
         <Col lg="4">
           <div className="about-ava--wrapper">
-            <img src="../assets/IMG_4681.jpg" alt="riwandi's profile picture" className="about-ava"/>
+            <img src="../assets/IMG_4681.jpg" alt="avatar" className="about-ava"/>
           </div>
         </Col>
         <Col lg="8">
