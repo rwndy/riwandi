@@ -28,7 +28,10 @@ const NavigationBar = () => {
           <Nav className="ml-auto" navbar>
           <NavItem>
               <NavLink className="nav-text__white" href="/about">About</NavLink>
-            </NavItem>
+          </NavItem>
+          <NavItem>
+            <NavLink className="nav-text__white" href="/books">Books</NavLink>
+          </NavItem>
           </Nav>
         </Collapse>
       </Container>

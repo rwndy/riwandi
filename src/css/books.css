@@ -1,0 +1,9 @@
+.section-books--title {
+  position: absolute;
+  top: 50%; right: 50%;
+  transform: translate(50%,-50%);
+  font-family: 'Lato', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #fff;
+}
